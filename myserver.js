@@ -5,7 +5,7 @@ var port = process.env.PORT || 3000;
 
 app.get('/',function(req,res)
 {
-    res.render('index',{title:'BinhDQ',message:'Welcome BinhDQ',"book": {"name": "Hello", "price": 12.99}})
+    res.render('index',{title:'BinhDQ title',message:'Welcome BinhDQ',"book": {"name": "Hello", "price": 12.99}})
 });
 
 app.get('/test',function(req,res)
